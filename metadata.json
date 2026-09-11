@@ -1,0 +1,6 @@
+{
+  "name": "Clarity",
+  "description": "Unified workspace task manager and productivity suite with daily momentum tracking, triage workflows, and custom settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

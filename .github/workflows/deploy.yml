@@ -1,0 +1,46 @@
+name: Build & Test Flutter Web
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Verify Code Formatting & Lints
+        run: flutter analyze
+
+      - name: Run Test Suite
+        run: flutter test
+
+      - name: Build Web Production Bundle
+        run: flutter build web --release
+
+      - name: Upload Web Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: clarity-web-build
+          path: build/web

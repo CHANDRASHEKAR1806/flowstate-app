@@ -1,0 +1,30 @@
+# Flutter & Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# Build outputs (allow build/web for instant Vercel static deployment)
+/build/*
+!/build/web/
+
+# Android
+**/*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env
+*.keystore
+android_native_backup/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Vercel
+.vercel
