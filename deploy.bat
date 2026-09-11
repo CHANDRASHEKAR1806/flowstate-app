@@ -1,6 +1,6 @@
 @echo off
 echo ==============================================
-echo   Clarity Workspace - Vercel Deployment
+echo   Flowstate - Vercel Deployment
 echo ==============================================
 echo.
 echo 1. Ensuring latest Flutter web build...

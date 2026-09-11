@@ -1,11 +1,11 @@
 {
-    "name": "clarity",
-    "short_name": "clarity",
+    "name": "Flowstate — Tasks & Momentum",
+    "short_name": "Flowstate",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#4355B9",
+    "theme_color": "#4355B9",
+    "description": "Flowstate - Focus-oriented Task & Productivity Suite",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

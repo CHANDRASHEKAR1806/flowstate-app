@@ -115,7 +115,7 @@ class AppDrawer extends StatelessWidget {
                           ),
                           alignment: Alignment.center,
                           child: const Text(
-                            'C',
+                            'F',
                             style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.bold),
                           ),
                         ),
@@ -124,7 +124,7 @@ class AppDrawer extends StatelessWidget {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('Clarity Workspace', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
+                              Text('Flowstate Workspace', style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold)),
                               Text('Unified Team Pod', style: TextStyle(fontSize: 10, color: Colors.grey)),
                             ],
                           ),
@@ -237,7 +237,7 @@ class AppDrawer extends StatelessWidget {
       context: context,
       builder: (ctx) => AlertDialog(
         title: const Text('Sign Out'),
-        content: const Text('Are you sure you want to sign out of Clarity?'),
+        content: const Text('Are you sure you want to sign out of Flowstate?'),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(ctx).pop(),

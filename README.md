@@ -1,4 +1,4 @@
-# 🚀 Clarity — Cross-Platform Flutter Task & Productivity App
+# 🚀 Flowstate — Cross-Platform Flutter Task & Productivity App
 
 A modern, production-ready, full-featured personal and team productivity suite built with **Flutter (Dart 3)** and **Material 3**. 
 
@@ -39,7 +39,7 @@ This app was originally a prototype and has been completely converted into a **t
      ```bash
      flutter run -d chrome
      ```
-   - Chrome will launch with the Clarity web application running with hot reload!
+   - Chrome will launch with the Flowstate web application running with hot reload!
 
 3. **Run via VS Code Debugger (One-Click F5)**:
    - Press `F5` or click the **Run and Debug** icon on the left sidebar.
@@ -71,7 +71,7 @@ The web production bundle has already been compiled (`build/web`) and configured
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Clarity Flutter Web App"
+   git commit -m "Initial commit: Flowstate Flutter Web App"
    git remote add origin https://github.com/YOUR_USERNAME/clarity-app.git
    git branch -M main
    git push -u origin main

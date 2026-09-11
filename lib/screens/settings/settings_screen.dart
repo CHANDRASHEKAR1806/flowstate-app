@@ -180,7 +180,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     child: const Icon(Icons.fingerprint, color: Colors.purple, size: 20),
                   ),
                   title: const Text('Biometric App Lock', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 15)),
-                  subtitle: const Text('Require authentication to open Clarity', style: TextStyle(fontSize: 12)),
+                  subtitle: const Text('Require authentication to open Flowstate', style: TextStyle(fontSize: 12)),
                   value: theme.biometricLock,
                   activeTrackColor: AppColors.primary,
                   onChanged: (val) => theme.toggleBiometricLock(val),
@@ -306,7 +306,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                 const ListTile(
                   leading: Icon(Icons.info_outline, size: 20),
                   title: Text('Version', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 14)),
-                  trailing: Text('v2.4.0 (Flutter Edition)', style: TextStyle(color: Colors.grey, fontSize: 13)),
+                  trailing: Text('v2.4.0 (Flowstate Edition)', style: TextStyle(color: Colors.grey, fontSize: 13)),
                 ),
                 const Divider(height: 1),
                 const ListTile(
@@ -328,7 +328,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                     'Sign Out',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: AppColors.error),
                   ),
-                  subtitle: const Text('Log out of your Clarity account', style: TextStyle(fontSize: 12)),
+                  subtitle: const Text('Log out of your Flowstate account', style: TextStyle(fontSize: 12)),
                   trailing: const Icon(Icons.chevron_right, color: AppColors.error, size: 18),
                   onTap: () => _showSignOutDialog(context, auth),
                 ),
@@ -492,7 +492,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
-        title: const Text('Sign Out of Clarity?', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('Sign Out of Flowstate?', style: TextStyle(fontWeight: FontWeight.bold)),
         content: const Text(
           'You will be returned to the sign in screen. Your tasks and settings will remain safely saved on this device.',
         ),

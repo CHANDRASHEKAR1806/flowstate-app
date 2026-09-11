@@ -1,5 +1,5 @@
 Write-Host "==============================================" -ForegroundColor Cyan
-Write-Host "   Clarity Workspace - Vercel Deployment" -ForegroundColor Cyan
+Write-Host "   Flowstate - Vercel Deployment" -ForegroundColor Cyan
 Write-Host "==============================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "1. Ensuring latest Flutter web build..." -ForegroundColor Yellow

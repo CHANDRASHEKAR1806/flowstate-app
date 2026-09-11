@@ -45,7 +45,7 @@ class ClarityApp extends StatelessWidget {
     final themeProvider = context.watch<ThemeProvider>();
 
     return MaterialApp(
-      title: 'Clarity - Tasks & Momentum',
+      title: 'Flowstate - Tasks & Momentum',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
